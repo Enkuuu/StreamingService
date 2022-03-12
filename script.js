@@ -36,7 +36,7 @@ let library = [
     new Show(
         "Placeholder",
         4444,
-        "Place",
+        "Places",
         "ahahhahaha",
         "placeholder-image.png"
     ),
@@ -44,7 +44,7 @@ let library = [
     new Show(
         "Placeholder",
         4444,
-        "Place",
+        "Places",
         "ahahhahaha",
         "placeholder-image.png"
     ),
@@ -52,7 +52,7 @@ let library = [
     new Show(
         "Placeholder",
         4444,
-        "Place",
+        "Places",
         "ahahhahaha",
         "placeholder-image.png"
     ),

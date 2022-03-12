@@ -5,11 +5,12 @@ class Show{
         this.genre = genre;
         this.description = description;
         this.image = image;
+        this.newRelease = year == new Date()
     }
 
     addToPage(){
         if(document.getElementById(this.genre)){
-            document.getElementById(this.genre).append(this.buildShow);
+            document.getElementById(this.genre).append(this.buildShow());
         }
         else{
             this.createGenre();
