@@ -3,7 +3,7 @@ import {Show} from './show.js'
 let library = [
     new Show(
         "Placeholder",
-        4444,
+        2022,
         "Place",
         "ahahhahaha",
         "placeholder-image.png"
@@ -11,7 +11,7 @@ let library = [
 
     new Show(
         "Placeholder",
-        4444,
+        2022,
         "Place",
         "ahahhahaha",
         "placeholder-image.png"
