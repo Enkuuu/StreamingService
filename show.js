@@ -54,12 +54,16 @@ class Show{
             let newImg = document.createElement("img");
             newImg.src = this.image;
 
+            let newP = document.createElement("p");
+            newP.innerHTML = this.description;
+
             let closeButton = document.createElement("button");
             closeButton.innerHTML = "X";
             closeButton.onclick = this.closeModal;
 
             modal.append(newh1);
             modal.append(newImg);
+            modal.append(newP);
             modal.append(closeButton);
             document.body.append(modal);
         }
