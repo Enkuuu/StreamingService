@@ -8,6 +8,10 @@ h1, h2{
     color: #1c2b2e;
 }
 
+h1{
+    text-align: center;
+}
+
 .genre {
     background: #1c2b2e;
     padding: 25px;
