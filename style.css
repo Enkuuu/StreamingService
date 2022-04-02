@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 *, body, html{
     margin: 0;
     padding: 0;
 }
 
+body{
+    background-color: rgb(56, 56, 56);
+}
+
 h1, h2{
     margin: 20px;
-    color: #1c2b2e;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1{
@@ -13,7 +19,7 @@ h1{
 }
 
 .genre {
-    background: #1c2b2e;
+    background: #242424;
     padding: 25px;
     display: flex;
     justify-content: flex-start;
@@ -49,7 +55,7 @@ h1{
 
 .modal button {
     width: 20px;
-    height: 20ps;
+    height: 20px;
     border-radius: 50%;
     background-color: white;
     border: none;
@@ -67,4 +73,8 @@ h1{
 .modal p{
     padding-left: 20px;
     font-size: 20px;
+}
+
+.modal h1, .modal h2{
+    color: black
 }
